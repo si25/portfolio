@@ -236,6 +236,10 @@ flex:4;
     padding-top: 70px;
   }
 
+.about-flex-main {
+    padding-top: 70px;
+  }
+
   .headshot {
     width:200px;
     height:200px;
@@ -942,7 +946,7 @@ Media Queries
   .cv-button {
     width: 17%;
     height: 30px;
-    margin-top: 40px;
+    margin-top: 50px;
     
   }
 
