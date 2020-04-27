@@ -641,7 +641,6 @@ flex:4;
   .contact {
     min-height: 50vh;
     height: 50vh;
-    overflow: hidden;
   } 
 
   .contact-header {
