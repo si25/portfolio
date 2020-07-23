@@ -1,9 +1,10 @@
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Simon Gibbs | Junior Front-end Developer, Brighton </title>
+		<title>Simon Gibbs | Front-end Developer | Web Design and Build | Brighton </title>
 		<link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="css/resets.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
   		<link rel="stylesheet" href="css/style.css">
@@ -11,307 +12,258 @@
 	<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 
-	<!-- home section starts -->
-		
+<!-- HOME SECTION STARTS -->
 		<section id="home" class="section home">
 			<div class="home-container">
+
 				<div class="home-header-flex">
 					<h1 class="home-header show-on-scroll">Hi there, <br>I'm <span class="home-header-highlight show-on-scroll">Simon Gibbs</span>.</h1>
 					<h2 class="home-title show-on-scroll">A <span class="home-header-highlight show-on-scroll">Front-end Developer</span> based in Brighton. </h2>
 				</div>
-
-				<div class="button">
-
-					<div class="cta">
-						<a href="#about">
-							<svg class="down-arrow" height="50" width="50" xmlns="https://www.w3.org/2000/svg"><path fill="none" d="M0 0h50v50H0z"/><path d="M47.25 15l-2.09-2.09L25 33.08 4.84 12.9 2.75 15 25 37.25z"/></svg>
-
-						</a>
-					</div>
+				<div class="arrow">
+					<a href="#about">
+						<svg class="arrow-svg" height="50" width="50" xmlns="https://www.w3.org/2000/svg"><path fill="none" d="M0 0h50v50H0z"/><path d="M47.25 15l-2.09-2.09L25 33.08 4.84 12.9 2.75 15 25 37.25z"/></svg>
+					</a>
 				</div>
 			</div>
 		</section>
+<!-- HOME SECTION ENDS -->
 
-		<!-- home section ends -->
-
-		<!-- about section starts -->
-		<div id="about" class="sticky-nav-container">
+<!-- NAR BAR STARTS -->
+		<div id="about" class="sticky-nav-container"> <!-- This div is closed before </body> to allow the nav bar to stick to the top -->
 			<header class="navbar sticky-top navbar-expand-md navbar-dark">
-
-			        
-			        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarPrimary">
-			          <span class="navbar-toggler-icon"></span>
-			        </button>
-			        
-			          <nav class="collapse navbar-collapse justify-content-end" id="navbarPrimary">
-			            <ul class="navbar-nav">
-			             <!--  <li class="nav-item">
-			                <a class="nav-link" href="#home">Home</a>
-			              </li> -->
-			              <li class="nav-item">
-			                <a class="nav-link about-nav" href="#about">About</a>
-			              </li>
-			              <li class="nav-item">
-			                <a class="nav-link" href="#portfolio">Projects</a>
-			              </li>
-			              <li class="nav-item">
-			                <a class="nav-link" href="#contact">Contact</a>
-			              </li>
-			            </ul>
-			          </nav>
+				<a class="navbar-brand" href="mailto:hello@simon-gibbs.com">Get in touch!</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarPrimary">
+			        <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <nav class="collapse navbar-collapse justify-content-end" id="navbarPrimary">
+			        <ul class="navbar-nav">
+						<li class="nav-item">
+			            	<a class="nav-link about-nav" href="#about">About</a>
+			            </li>
+			            <li class="nav-item">
+			                <a class="nav-link" href="#portfolio">Portfolio</a>
+			            </li>
+			      <!--       <li class="nav-item">
+			                <a class="nav-link" href="#contact">hello@simon-gibbs.com</a>
+			            </li> -->
+			        </ul>
+			    </nav>
 	      	</header>
+<!-- NAV BAR ENDS -->
+
+<!-- ABOUT SECTION STARTS -->
 			<section id="about" class="section about">
 				<div class="about-container">
 					<div class="about-flex-main">
+
+						<!-- Skills bio starts -->
 						<div class="about-flex-box about-copy-container">
-							<img class="headshot show-on-scroll" src="img/square_headshot_web.jpg">
-		      				<p class="about-body-text show-on-scroll">Over the past year I've been re-training as a Front-end Developer having previously worked in digital marketing and communications. During this time, I have learnt the core languages underpinning front-end development and have become fascinated with design-oriented responsive websites.  </p> </br>
+							<h2 class="skills-box-header">About</h2>
+							<img class="headshot" src="img/headshot_v5.jpg">
+		      				<p class="about-body-text show-on-scroll">
+							I'm a Front-end Developer experienced in building design-oriented responsive websites. In the past I've mostly used CSS and JavScript but also work with Sass, Bootstrap, and React, as well as CMS's such as Squarespace, Shopify and Wordpress.</br></br> Having previously worked in digital marketing and communications I enjoy making websites that use clean UX/UI to clearly communicate ideas and information.</br></br>This site contains an assortment of personal projects and websites I've designed and built for others.</br></br> I am currently avaliable for freelance or contract work so feel free to get in touch about a project.</p>
 
-		      				<p class="about-body-text show-on-scroll"> This page contains an assortment of personal projects and websites I've designed and built for others. I am currently avaliable for freelance work and would love to hear about any permanent front-end roles. </p>
+					<!-- 		<p class="about-body-text show-on-scroll">I've recently been scratching the surface of React and UX Design Process's while completing courses on Treehouse.</p> </br> -->
+
+		      				<!-- <p class="about-body-text show-on-scroll"> This site contains an assortment of personal projects and websites I've designed and built for others. </p> </br>
+
+		      				<p class="about-body-text show-on-scroll">I am currently avaliable for freelance or contract work.</p> -->
+		      				<div class="about-contact-flex">
+		      					<div><a href="mailto:hello@simon-gibbs.com">hello@simon-gibbs.com</a></div>
+		      					<div><a href="https://www.linkedin.com/in/simon-gibbs-a28591103" target="_blank">Linkedin</a></div>
+		      					<div><a href="https://github.com/si25" target="_blank">Github</a></div>
+		      					<div><a href="https://dribbble.com/si25" target="_blank">Dribbble</a></div>
+		      				</div>
 						</div>
-						<div class="about-flex-box skills-container">
-							<h3 class="skills-box-header">Languages and skills:</h3>
+						<!-- Skills bio ends -->
 
-						 	<div class="skills-box clearfix">
-						 		<span class="skills-title">HTML</span>
-						 		<div class="skills">
-						 			<span class="skills-span span-one show-on-scroll" style="width: 85%"></span>
-						 		</div>
-						 		<span class="skills-title">CSS</span>
-						 		
-						 		<div class="skills">
-						 			<span class="skills-span span-two show-on-scroll" style="width: 70%"></span>
-						 		</div>
-						 		<span class="skills-title">JavaScript</span>
-						 		
-						 		<div class="skills">
-						 			<span class="skills-span span-three show-on-scroll" style="width: 45%"></span>
-						 		</div>
-						 		<span class="skills-title">Bootstrap</span>
-						 		
-						 		<div class="skills">
-						 			<span class="skills-span span-four show-on-scroll" style="width: 55%"></span>
-						 		</div>
-						 		<span class="skills-title">JQuery</span>
-						 		
-						 		<div class="skills">
-						 			<span class="skills-span span-five show-on-scroll" style="width: 20%"></span>
-						 		</div>
-						 		<span class="skills-title">Sass</span>
-						 		
-						 		<div class="skills">
-						 			<span class="skills-span span-six show-on-scroll" style="width: 20%"></span>
-						 		</div>
-						 		<span class="skills-title">React</span>
-						 		
-						 		<div class="skills">
-						 			<span class="skills-span span-seven show-on-scroll" style="width: 10%"></span>
-						 		</div>
-						 		<span class="skills-title">Photoshop</span>
-						 		
-						 		<div class="skills">
-						 			<span class="skills-span span-eight show-on-scroll" style="width: 50%"></span>
-						 		</div>
-						 		<span class="skills-title">Email marketing</span>
-						 	
-						 		<div class="skills">
-						 			<span class="skills-span span-nine show-on-scroll" style="width: 90%"></span>
-						 		</div>
-						 	</div>
-						 </div>
+						<!-- Skills box starts -->
+						<div class="about-flex-box skills-container">
+							<h3 class="skills-box-header">Coding and Digital Skills</h3>
+							<div class="skills-box clearfix">
+							 	<span class="skills-title">HTML</span>
+							 	<div class="skills">
+							 		<span class="skills-span span-one show-on-scroll" style="width: 95%"></span>
+							 	</div>
+
+							 	<span class="skills-title">CSS</span>
+							 	<div class="skills">
+							 		<span class="skills-span span-two show-on-scroll" style="width: 90%"></span>
+							 	</div>
+
+							 	<span class="skills-title">Sass</span>
+							 	<div class="skills">
+							 		<span class="skills-span span-three show-on-scroll" style="width: 55%"></span>
+							 	</div>
+							 	
+							 	<span class="skills-title">Bootstrap</span>
+							 	<div class="skills">
+							 		<span class="skills-span span-four show-on-scroll" style="width: 75%"></span>
+							 	</div>
+
+							 	<span class="skills-title">JavaScript</span>
+							 	<div class="skills">
+							 		<span class="skills-span span-five show-on-scroll" style="width: 70%"></span>
+							 	</div>
+
+							 	<span class="skills-title">React</span>
+								<div class="skills">
+							 		<span class="skills-span span-six show-on-scroll" style="width: 40%"></span>
+							 	</div>
+
+							 	<span class="skills-title">GitHub/Git</span>
+							 	<div class="skills">
+							 		<span class="skills-span span-seven show-on-scroll" style="width: 40%"></span>
+							 	</div>
+							 	
+							 	<span class="skills-title">UX/UI Design</span>
+							 	<div class="skills">
+							 		<span class="skills-span span-eight show-on-scroll" style="width: 50%"></span>
+							 	</div>
+
+							 	<span class="skills-title">Adobe Suite</span>
+							 	<div class="skills">
+							 		<span class="skills-span span-nine show-on-scroll" style="width: 60%"></span>
+							 	</div>
+							 	</div>
+						</div>
+						<!-- skills box ends -->
 					</div>
-					 	
-					 	<button class="cv-button"><a href="img/CV.pdf" target="_blank">Download CV</a></button>
+					<!-- <button type="button" class="button cv-button"><a href="img/CV.pdf" target="_blank">Download CV</a></button> -->
 				</div>
 			</section>
-
-			<!-- about section ends -->
-
-			<!-- portfolio section starts -->
+<!-- ABOUT SECTION ENDS -->
 
 
+<!-- PORTFOLIO SECTION STARTS -->
 			<section id="portfolio" class="section portfolio clearfix">
 				<div class="portfolio-container">
-					<h2 class="header portfolio-header"> Projects </h2>
+					<h2 class="header portfolio-header"> Portfolio </h2>
 					<div id="modal-array">
 						
-						
-						
-								<div class="project-card project-one float-left-port">
-									<div class="project-hover-shadow">
-										<h3 class="project-title">Robert Fanshawe Photography</h3>
-										<button id="project-button" class="project-button">View</button>
-									</div>
-								</div>
-
-								<div id="project-modal" class="modal-container">
-										<div class='modal-content'>
-											<span class="close">&times;</span>
-											<h3 class="modal-title">Robert Fanshawe Photography</h3>
-											<img class="modal-img" src="img/robert_fanshawe_preview.jpg">
-											<div class="modal-text">
-												<p class="modal-p">This portfolio website was built using a mixture of bootstrap and JavaScript to replace a previous website showcasing the same content. It enabled me to practice using galleries and lightbox's to better present photography online. </p>
-
-												<h4 class="modal-list-header">Tools used for this project:</h4>
-												<ul class="modal-list">
-													<li>HTML5</li>
-													<li>CSS3</li>
-													<li>Bootstrap</li>
-													<li>JavaScript</li>
-												</ul>
-											</div>
-											<div class="modal-button-container">
-												<button id="project-button" class="modal-button"><a href="https://github.com/si25/rfanshawe" target="_blank">View code</a></button>
-												<button id="project-button" class="modal-button"><a href="https://si25.github.io/rfanshawe/" target="_blank">View website</a></button>
-											</div>
-										</div>
-								</div>
-
-					
-
-
-						
-							<div class="project-card project-two float-right-port">
-								<div class="project-hover-shadow">
-										<h3 class="project-title">Dan Stockmann Filmmaking</h3>
-										<button id="project-button-two" class="project-button">View</button>
-									</div>
+						<!-- project one card starts -->
+						<div class="project-card project-one float-left-port">
+							<div class="project-hover-shadow">
+								<h3 class="project-title">Robert Fanshawe Photography</h3>
+								<button id="project-button" class="button project-button">View</button>
 							</div>
+						</div>
+						<!-- project one card ends -->
 
-							<div id="project-modal-two" class="modal-container">
-										<div class='modal-content'>
-											<span class="close-two">&times;</span>
-											<h3 class="modal-title">Dan Stockmann Filmmaking</h3>
-											<div class="modal-flex">
-												<img class="modal-img" src="img/dan_stockmann_preview.jpg">
-												<div class="modal-text">
-													<p class="modal-p">This was the first website that I built (which looks a little rough around the edges to me now). Through building it I learnt the principles of creating responsive design, building forms and how to embed content into a website.</p>
-
-													<h4 class="modal-list-header">Tools used for this project:</h4>
-													<ul class="modal-list">
-														<li>HTML5</li>
-														<li>CSS3</li>
-														<li>Bootstrap</li>
-													</ul>
-												</div>
-											</div>
-											<div class="modal-button-container">
-												<button id="project-button" class="modal-button"><a href="https://github.com/si25/djstockmann" target="_blank">View code</a></button>
-												<button id="project-button" class="modal-button"><a href="https://si25.github.io/djstockmann/" target="_blank">View website</a></button>
-											</div>
-										</div>
+						<!-- project one modal starts -->
+						<div id="project-modal" class="modal-container">
+							<div class='modal-content'>
+								<span class="close">&times;</span>
+								<h3 class="modal-title">Robert Fanshawe Photography</h3>
+								<img class="modal-img" src="img/robert_fanshawe_preview.jpg">
+								<div class="modal-text">
+									<p class="modal-p">This portfolio website was built using a mixture of bootstrap and JavaScript to replace a previous website showcasing the same content. It enabled me to practice using galleries and lightbox's to better present photography online. </p>
+									<h4 class="modal-list-header">Tools used for this project:</h4>
+									<ul class="modal-list">
+										<li>HTML5</li>
+										<li>CSS3</li>
+										<li>Bootstrap</li>
+										<li>JavaScript</li>
+									</ul>
 								</div>
-						
-
-					
-							<div class="project-card project-three float-left-port">
-								<div class="project-hover-shadow">
-										<h3 class="project-title">JavaScript Game: Four in a Row</h3>
-										<button id="project-button-three" class="project-button">View</button>
-									</div>
+								<div class="modal-button-container">
+									<button id="project-button" class="button modal-button"><a href="https://github.com/si25/rfanshawe" target="_blank">View code</a></button>
+									<button id="project-button" class="button modal-button"><a href="https://si25.github.io/rfanshawe/" target="_blank">View website</a></button>
+								</div>
 							</div>
+						</div>
+						<!-- project one modal ends -->
 
-							<div id="project-modal-three" class="modal-container">
-										<div class='modal-content'>
-											<span class="close-three">&times;</span>
-											<h3 class="modal-title">JavaScript game: Four in a Row</h3>
-											<img class="modal-img" src="img/connect_four_preview.jpg">
-											<div class="modal-text">
-												<p class="modal-p">I followed instruction to build this game while completing the JavaScript course on Treehouse. It makes use of object-oriented JavaScript, DOM interaction and Constructor Methods. Building it profoundly challenged my understanding of JavaScript and programming. </p>
 
-												<h4 class="modal-list-header">Tools used for this project:</h4>
-												<ul class="modal-list">
-													<li>JavaScript</li>
-												</ul>
-											</div>
-											<div class="modal-button-container">
-												<button id="project-button" class="modal-button"><a href="https://github.com/si25/Connect-Four" target="_blank">View code</a></button>
-												<button id="project-button" class="modal-button"><a href="https://si25.github.io/Connect-Four/" target="_blank">View website</a></button>
-											</div>
-										</div>
-								</div>	
-					
-
-						
-							<div class="project-card project-four float-right-port">
-								<div class="project-hover-shadow">
-										<h3 class="project-title">Dyer Street Clinic</h3>
-										<h4 class="project-byline">Coming Soon!</h4>
-										
-									</div>
+						<!-- project two card starts -->	
+						<div class="project-card project-two float-right-port">
+							<div class="project-hover-shadow">
+								<h3 class="project-title">Dan Stockmann Filmmaking</h3>
+								<button id="project-button-two" class="button project-button">View</button>
 							</div>
-					
+						</div>
+						<!-- project two card ends -->
+
+						<!-- project two modal starts -->
+						<div id="project-modal-two" class="modal-container">
+							<div class='modal-content'>
+								<span class="close-two">&times;</span>
+								<h3 class="modal-title">Dan Stockmann Filmmaking</h3>
+								<img class="modal-img" src="img/dan_stockmann_preview.jpg">
+								<div class="modal-text">
+									<p class="modal-p">This was the first website that I built (which looks a little rough around the edges to me now). Through building it I learnt the principles of creating responsive design, building forms and how to embed content into a website.</p>
+									<h4 class="modal-list-header">Tools used for this project:</h4>
+									<ul class="modal-list">
+										<li>HTML5</li>
+										<li>CSS3</li>
+										<li>Bootstrap</li>
+									</ul>
+								</div>
+								<div class="modal-button-container">
+									<button id="project-button" class="button modal-button"><a href="https://github.com/si25/djstockmann" target="_blank">View code</a></button>
+									<button id="project-button" class="button modal-button"><a href="https://si25.github.io/djstockmann/" target="_blank">View website</a></button>
+								</div>
+							</div>
+						</div>
+						<!-- project two modal ends -->
+
+						<!-- project three card starts -->
+						<div class="project-card project-three float-left-port">
+							<div class="project-hover-shadow">
+								<h3 class="project-title">JavaScript Game: Four in a Row</h3>
+								<button id="project-button-three" class="button project-button">View</button>
+							</div>
+						</div>
+						<!-- project three card ends -->
+
+						<!-- project three modal starts -->
+						<div id="project-modal-three" class="modal-container">
+							<div class='modal-content'>
+								<span class="close-three">&times;</span>
+								<h3 class="modal-title">JavaScript game: Four in a Row</h3>
+								<img class="modal-img" src="img/connect_four_preview.jpg">
+								<div class="modal-text">
+									<p class="modal-p">I followed instruction to build this game while completing the JavaScript course on Treehouse. It makes use of object-oriented JavaScript, DOM interaction and Constructor Methods. Building it profoundly challenged my understanding of JavaScript and programming. </p>
+									<h4 class="modal-list-header">Tools used for this project:</h4>
+									<ul class="modal-list">
+										<li>JavaScript</li>
+									</ul>
+								</div>
+								<div class="modal-button-container">
+									<button id="project-button" class="button modal-button"><a href="https://github.com/si25/Connect-Four" target="_blank">View code</a></button>
+									<button id="project-button" class="button modal-button"><a href="https://si25.github.io/Connect-Four/" target="_blank">View website</a></button>
+								</div>
+							</div>
+						</div>	
+						<!-- project three modal ends -->
+
+						<!-- project four card starts -->	
+						<div class="project-card project-four float-right-port">
+							<div class="project-hover-shadow">
+								<h3 class="project-title">Dyer Street Clinic</h3>
+								<h4 class="project-byline">Coming Soon!</h4>		
+							</div>
+						</div>
+						<!-- project one card ends -->
 
 					</div>
 				</div>
 			</section>
+<!-- PORTFOLIO SECTION ENDS-->
 
-			<!-- portfolio section ends -->
 
-			<!-- contact section starts -->
-
-			<section id="contact" class="section contact clearfix">
-				<div class="contact-container">
-					<h2 class="header contact-header">Contact</h2>
-					<p class="contact-p">Feel free to get in touch if you have any queries!</p>
-					<div class="contact-details-container">
-	      				<ul class="contact-details-list">
-	      					<li class="contact-details">
-	      						<div class="svg-container-contact icon-phone">
-	      							<g>
-	      								<svg xmlns="https://www.w3.org/2000/svg"><path d="M21.06 4.2l-.03-.02-4.06-2-4.38 5.84 2.02 2.7a4.15 4.15 0 01-3.89 3.89l-2.7-2.02-5.84 4.38 2 4.06.02.03c.21.34.58.56 1 .56h1.05c8.49 0 15.37-6.88 15.37-15.37V5.21c0-.43-.22-.8-.55-1zm-.94 2.05c0 7.65-6.22 13.87-13.87 13.87h-.84l-1.33-2.7 3.94-2.95 2.2 1.64h.25a5.65 5.65 0 005.64-5.64v-.25l-1.64-2.2 2.96-3.94 2.69 1.33z"/></svg>
-	      							</g>
-	      						</div>
-	 							07828 357 892</li>
-
-	      					<li class="contact-details">
-	      						<div class="svg-container-contact icon-mail">
-	      							<g>
-	      								<svg viewBox="0 0 479.06 479.06" xmlns="https://www.w3.org/2000/svg"><path d="M434.15 59.88H44.9A44.96 44.96 0 000 104.8v269.47a44.96 44.96 0 0044.91 44.92h389.24a44.96 44.96 0 0044.9-44.92V104.8a44.96 44.96 0 00-44.9-44.9zm0 29.94c2.03 0 3.97.43 5.73 1.16L239.53 264.63 39.17 90.98a14.9 14.9 0 015.74-1.16zm0 299.41H44.9a14.98 14.98 0 01-14.97-14.97V122.61l199.78 173.15a14.95 14.95 0 0019.62 0L449.12 122.6v251.65c0 8.26-6.71 14.97-14.97 14.97z"/></svg>
-	      							</g>
-	      						</div> hello@simon-gibbs.co.uk</li>
-	      				</ul>
-      				</div>
-
-      				<div class="svg-flex">
-	      				<div class="svg-container">
-							<a href ="https://github.com/si25" target="_blank">
-								<g class="github-svg">
-									<svg viewBox="0 0 1024 1024" fill="none" xmlns="https://www.w3.org/2000/svg">
-										<path class="svg-contact-color" fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z" transform="scale(64)" fill="#333"/>
-									</svg>
-								</g>
-							</a>
-	      				</div>
-
-	      				<div class="svg-container">
-	      					<a href ="https://www.linkedin.com/in/simon-gibbs-a28591103" target="_blank">
-	      						<g class="linkedin-svg">
-	      							<?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'https://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg enable-background="new 0 0 48 48" id="Layer_1" version="1.1" viewBox="0 0 48 48" xml:space="preserve" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><circle class="svg-contact-color" cx="24" cy="24" fill="#333" r="24"/><path d="M17.4,34.9h-4.6V20.1h4.6V34.9z M14.9,18.2L14.9,18.2c-1.7,0-2.8-1.1-2.8-2.6c0-1.5,1.1-2.6,2.8-2.6  c1.7,0,2.8,1.1,2.8,2.6C17.7,17.1,16.7,18.2,14.9,18.2z M35.9,34.9h-5.3v-7.7c0-2-0.8-3.4-2.6-3.4c-1.4,0-2.1,0.9-2.5,1.8  c-0.1,0.3-0.1,0.8-0.1,1.2v8h-5.2c0,0,0.1-13.6,0-14.8h5.2v2.3c0.3-1,2-2.5,4.6-2.5c3.3,0,5.9,2.1,5.9,6.7V34.9z" fill="#FFF"/></svg>
-	      						</g>
-	      					</a>
-	      				</div>
-      				</div>
-      		<!-- 
-      				<div class="iframe-container">
-      					<iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23727.558884564827!2d-0.1562903761939222!3d50.82896183175075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48758553f34181db%3A0x68fbeacf34e3172b!2sHove!5e0!3m2!1sen!2suk!4v1582562059312!5m2!1sen!2suk" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-      				</div>
- -->
-				</div>
-			</section>
-		</div>
-
-		<!-- contact section ends -->
-
-		<!-- footer starts -->
+<!-- FOOTER STARTS -->
 		<footer class="footer mt-auto py-3">
 					<span>&copy;2020 by <span class="footer-highlight">Simon Gibbs</span>.</span>
 		</footer>
-		<!-- footer ends -->
+<!-- FOOTER ENDS -->
 
+<!-- JS STARTS -->
 		<script src="js/jquery-3.4.1.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/script.js"></script>
+<!-- JS ENDS -->
 
 	</body>
 </html>
