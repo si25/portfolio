@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Simon Gibbs | Front-end Developer | Web Design and Build | Brighton </title>
+		<title>Simon Gibbs | Portfolio | Front-end Developer | Web Design and Build | Brighton </title>
 		<link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -62,7 +62,7 @@
 							<h2 class="skills-box-header">About</h2>
 							<img class="headshot" src="img/headshot_v5.jpg">
 		      				<p class="about-body-text show-on-scroll">
-							I'm a Front-end Developer experienced in building design-oriented responsive websites. In the past I've mostly used CSS and JavScript but also work with Sass, Bootstrap, and React, as well as CMS's such as Squarespace, Shopify and Wordpress.</br></br> Having previously worked in digital marketing and communications I enjoy making websites that use clean UX/UI to clearly communicate ideas and information.</br></br>This site contains an assortment of personal projects and websites I've designed and built for others.</br></br> I am currently avaliable for freelance or contract work so feel free to get in touch about a project.</p>
+							I'm a Front-end Developer with experience of building design-oriented responsive websites. I've mostly used CSS and JavaScript in the past but have also worked with Sass, Bootstrap, and React, as well as CMS's such as Squarespace, Shopify and WordPress.</br></br> I retrained as a Developer last year having previously worked in digital marketing and communications, and have since come to enjoy making websites that use clean UX/UI to clearly communicate ideas and information.</br></br>This site contains an assortment of personal projects and websites I've designed and built for others. I am currently available for freelance or contract work.</p>
 
 					<!-- 		<p class="about-body-text show-on-scroll">I've recently been scratching the surface of React and UX Design Process's while completing courses on Treehouse.</p> </br> -->
 
@@ -71,8 +71,8 @@
 		      				<p class="about-body-text show-on-scroll">I am currently avaliable for freelance or contract work.</p> -->
 		      				<div class="about-contact-flex">
 		      					<div><a href="mailto:hello@simon-gibbs.com">hello@simon-gibbs.com</a></div>
-		      					<div><a href="https://www.linkedin.com/in/simon-gibbs-a28591103" target="_blank">Linkedin</a></div>
-		      					<div><a href="https://github.com/si25" target="_blank">Github</a></div>
+		      					<div><a href="https://www.linkedin.com/in/simon-gibbs-a28591103" target="_blank">LinkedIn</a></div>
+		      					<div><a href="https://github.com/si25" target="_blank">GitHub</a></div>
 		      					<div><a href="https://dribbble.com/si25" target="_blank">Dribbble</a></div>
 		      				</div>
 						</div>
@@ -140,60 +140,96 @@
 			<section id="portfolio" class="section portfolio clearfix">
 				<div class="portfolio-container">
 					<h2 class="header portfolio-header"> Portfolio </h2>
-					<div id="modal-array">
+					<div class="portfolio-flex">
 						
 						<!-- project one card starts -->
-						<div class="project-card project-one float-left-port">
+						<div id="project-button" class="project-card project-one">
 							<div class="project-hover-shadow">
-								<h3 class="project-title">Robert Fanshawe Photography</h3>
-								<button id="project-button" class="button project-button">View</button>
+								<h3 class="project-title">Photography portfolio</h3>
+								<!-- <button id="project-button" class="button project-button">View</button> -->
 							</div>
 						</div>
 						<!-- project one card ends -->
 
-						<!-- project one modal starts -->
-						<div id="project-modal" class="modal-container">
+					
+
+						<!-- project two card starts -->	
+						<div id="project-button-two" class="project-card project-two">
+							<div class="project-hover-shadow">
+								<h3 class="project-title">Documentary portfolio</h3>
+								<!-- <button id="project-button-two" class="button project-button">View</button> -->
+							</div>
+						</div>
+						<!-- project two card ends -->
+
+						<!-- project three card starts -->
+						<div id="project-button-three" class="project-card project-three">
+							<div class="project-hover-shadow">
+								<h3 class="project-title">JavaScript game</h3>
+								<!-- <button id="project-button-three" class="button project-button">View</button> -->
+							</div>
+						</div>
+						<!-- project three card ends -->
+
+
+						<!-- project four card starts -->	
+						<div id="project-button-four" class="project-card project-four">
+							<div class="project-hover-shadow">
+								<h3 class="project-title">Holiday lets website</h3>
+								<!-- <h4 class="project-byline">Coming Soon!</h4> -->		
+							</div>
+						</div>
+
+						<!-- project five card starts -->	
+						<div id="project-button-five" class="project-card project-five">
+							<div class="project-hover-shadow">
+								<h3 class="project-title">React app</h3>
+								<!-- <h4 class="project-byline">Coming Soon!</h4>	 -->	
+							</div>
+						</div>
+
+						<!-- project six card starts -->	
+						<div class="project-card dummy-card">
+							<!-- Dummy card -->
+						</div>
+
+
+
+						<!-- project one card ends -->
+					</div>
+
+					<!-- project one modal starts -->
+					<div class="modal-container">
 							<div class='modal-content'>
 								<span class="close">&times;</span>
 								<h3 class="modal-title">Robert Fanshawe Photography</h3>
 								<img class="modal-img" src="img/robert_fanshawe_preview.jpg">
 								<div class="modal-text">
-									<p class="modal-p">This portfolio website was built using a mixture of bootstrap and JavaScript to replace a previous website showcasing the same content. It enabled me to practice using galleries and lightbox's to better present photography online. </p>
-									<h4 class="modal-list-header">Tools used for this project:</h4>
+									<p class="modal-p">Photography portfolio built using a mixture of bootstrap and JavaScript to replace a previous website with the same content. </p>
+									<h4 class="modal-list-header">Tools used:</h4>
 									<ul class="modal-list">
 										<li>HTML5</li>
 										<li>CSS3</li>
 										<li>Bootstrap</li>
-										<li>JavaScript</li>
 									</ul>
 								</div>
 								<div class="modal-button-container">
-									<button id="project-button" class="button modal-button"><a href="https://github.com/si25/rfanshawe" target="_blank">View code</a></button>
-									<button id="project-button" class="button modal-button"><a href="https://si25.github.io/rfanshawe/" target="_blank">View website</a></button>
+									<button id="project-button" class="button modal-button"><a href="https://github.com/si25/rfanshawe" target="_blank">Code on Github</a></button>
+									<button id="project-button" class="button modal-button"><a href="https://rfanshawe.co.uk/" target="_blank">Live website</a></button>
 								</div>
 							</div>
-						</div>
-						<!-- project one modal ends -->
+					</div>
+					<!-- project one modal ends -->
 
-
-						<!-- project two card starts -->	
-						<div class="project-card project-two float-right-port">
-							<div class="project-hover-shadow">
-								<h3 class="project-title">Dan Stockmann Filmmaking</h3>
-								<button id="project-button-two" class="button project-button">View</button>
-							</div>
-						</div>
-						<!-- project two card ends -->
-
-						<!-- project two modal starts -->
-						<div id="project-modal-two" class="modal-container">
+					<!-- project two modal starts -->
+					<div class="modal-container">
 							<div class='modal-content'>
-								<span class="close-two">&times;</span>
+								<span class="close">&times;</span>
 								<h3 class="modal-title">Dan Stockmann Filmmaking</h3>
 								<img class="modal-img" src="img/dan_stockmann_preview.jpg">
 								<div class="modal-text">
-									<p class="modal-p">This was the first website that I built (which looks a little rough around the edges to me now). Through building it I learnt the principles of creating responsive design, building forms and how to embed content into a website.</p>
-									<h4 class="modal-list-header">Tools used for this project:</h4>
+									<p class="modal-p">This was the first website I designed and built. While making it I learnt the principles of responsive websites, creating forms and how to embed content.</p>
+									<h4 class="modal-list-header">Tools used:</h4>
 									<ul class="modal-list">
 										<li>HTML5</li>
 										<li>CSS3</li>
@@ -201,53 +237,79 @@
 									</ul>
 								</div>
 								<div class="modal-button-container">
-									<button id="project-button" class="button modal-button"><a href="https://github.com/si25/djstockmann" target="_blank">View code</a></button>
-									<button id="project-button" class="button modal-button"><a href="https://si25.github.io/djstockmann/" target="_blank">View website</a></button>
+								<button id="project-button" class="button modal-button"><a href="https://github.com/si25/djstockmann" target="_blank">Code on Github</a></button>
+									<button id="project-button" class="button modal-button"><a href="https://si25.github.io/djstockmann/" target="_blank">Live website</a></button>
 								</div>
 							</div>
-						</div>
-						<!-- project two modal ends -->
+					</div>
+					<!-- project two modal ends -->
 
-						<!-- project three card starts -->
-						<div class="project-card project-three float-left-port">
-							<div class="project-hover-shadow">
-								<h3 class="project-title">JavaScript Game: Four in a Row</h3>
-								<button id="project-button-three" class="button project-button">View</button>
-							</div>
-						</div>
-						<!-- project three card ends -->
 
-						<!-- project three modal starts -->
-						<div id="project-modal-three" class="modal-container">
+					<!-- project three modal starts -->
+					<div class="modal-container">
 							<div class='modal-content'>
-								<span class="close-three">&times;</span>
+								<span class="close">&times;</span>
 								<h3 class="modal-title">JavaScript game: Four in a Row</h3>
 								<img class="modal-img" src="img/connect_four_preview.jpg">
 								<div class="modal-text">
-									<p class="modal-p">I followed instruction to build this game while completing the JavaScript course on Treehouse. It makes use of object-oriented JavaScript, DOM interaction and Constructor Methods. Building it profoundly challenged my understanding of JavaScript and programming. </p>
-									<h4 class="modal-list-header">Tools used for this project:</h4>
+								<p class="modal-p">I built this game while completing the JavaScript course on Treehouse. It makes use of object-oriented JavaScript and constructor methods. Building it challenged my understanding of JavaScript and helped me understand the use of Objects. </p>
+									<h4 class="modal-list-header">Tools used:</h4>
 									<ul class="modal-list">
 										<li>JavaScript</li>
 									</ul>
 								</div>
 								<div class="modal-button-container">
-									<button id="project-button" class="button modal-button"><a href="https://github.com/si25/Connect-Four" target="_blank">View code</a></button>
-									<button id="project-button" class="button modal-button"><a href="https://si25.github.io/Connect-Four/" target="_blank">View website</a></button>
+									<button id="project-button" class="button modal-button"><a href="https://github.com/si25/Connect-Four" target="_blank">Code on Github</a></button>
+									<button id="project-button" class="button modal-button"><a href="https://si25.github.io/Connect-Four/" target="_blank">Live website</a></button>
 								</div>
 							</div>
-						</div>	
-						<!-- project three modal ends -->
+					</div>	
+					<!-- project three modal ends -->
 
-						<!-- project four card starts -->	
-						<div class="project-card project-four float-right-port">
-							<div class="project-hover-shadow">
-								<h3 class="project-title">Dyer Street Clinic</h3>
-								<h4 class="project-byline">Coming Soon!</h4>		
+					<!-- project four modal starts -->
+					<div class="modal-container">
+							<div class='modal-content'>
+								<span class="close">&times;</span>
+								<h3 class="modal-title">Holiday lets website</h3>
+								<img class="modal-img" src="img/little_cottage_preview.png">
+								<div class="modal-text">
+									<p class="modal-p">This site was built for someone renting out a holiday home as a simple alternative to Airbnb. It uses JavaScript powered modals to communicate a lot of information on a single page. </p>
+									<h4 class="modal-list-header">Tools used:</h4>
+									<ul class="modal-list">
+										<li>HTML5</li>
+										<li>CSS3</li>
+										<li>JavaScript</li>
+									</ul>
+								</div>
+								<div class="modal-button-container">
+								<button id="project-button" class="button modal-button"><a href="https://github.com/si25/littlecottage" target="_blank">Code on Github</a></button>
+									<button id="project-button" class="button modal-button"><a href="https://si25.github.io/littlecottage/" target="_blank">Live website</a></button>
+								</div>
 							</div>
-						</div>
-						<!-- project one card ends -->
-
 					</div>
+					<!-- project four modal ends -->
+
+					<!-- project five modal starts -->
+					<div class="modal-container">
+							<div class='modal-content'>
+								<span class="close">&times;</span>
+								<h3 class="modal-title">React Scoreboard</h3>
+								<img class="modal-img" src="img/react.png">
+								<div class="modal-text">
+									<p class="modal-p">I built this app while completing the React course on Treehouse. Building it helped me understand the basic functionality of React and the ideas behind modular apps. </p>
+									<h4 class="modal-list-header">Tools used:</h4>
+									<ul class="modal-list">
+										<li>React</li>
+									</ul>
+								</div>
+								<div class="modal-button-container">
+									<button id="project-button" class="button modal-button"><a href="https://github.com/si25/scoreboard-react-app" target="_blank">Code on Github</a></button>
+									<button id="project-button" class="button modal-button"><a href="https://si25.github.io/scoreboard-react-app/" target="_blank">Live website</a></button>
+								</div>
+							</div>
+					</div>	
+					<!-- project five modal ends -->
+
 				</div>
 			</section>
 <!-- PORTFOLIO SECTION ENDS-->

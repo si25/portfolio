@@ -99,47 +99,41 @@ $(".arrow").click(function(event) {
 
 
 /****
-	PROJECTS SCRIPT
+	PROJECTS modal
 ****/
 
 
-  /** Creates modal open/close functionality **/                                  // Improve this with queryAllSelectors and for loop //
-  var modal = document.getElementById ('project-modal');
-  var btn = document.getElementById ('project-button');
-  var close = document.getElementsByClassName ('close')[0];
+/** Creates modal open/close functionality **/     
+                            
+var modalTest = document.getElementsByClassName('modal-container');
+var btnTest = document.getElementsByClassName('project-card');
+var closeTest = document.getElementsByClassName ('close');
 
-  btn.onclick = function() {
-  	modal.style.display = "block";
-  }
+for(var i=0; i < modalTest.length; i++) {
+  modalHandler(i);
+};
 
-  close.onclick = function() {
-  	modal.style.display = "none";
-  }
+function modalHandler(i) {
+  var btnClicked = btnTest[i];
+  var modalToOpen = modalTest[i];
+  var closeClicked = closeTest[i];
+
+  btnClicked.onclick = function() {
+    modalToOpen.style.display = "block";
+  };
+
+  closeClicked.onclick = function() {
+    modalToOpen.style.display = "none";
+  };
+
+  window.addEventListener("click", function(event) {
+    if (event.target == modalToOpen) {
+      modalToOpen.style.display = "none";
+    }
+  });
+}
 
 
-  var modalTwo = document.getElementById ('project-modal-two');
-  var btnTwo = document.getElementById ('project-button-two');
-  var closeTwo = document.getElementsByClassName ('close-two')[0];
-
-  btnTwo.onclick = function() {
-  	modalTwo.style.display = "block";
-  }
-
-  closeTwo.onclick = function() {
-  	modalTwo.style.display = "none";
-  }
-
-  var modalThree = document.getElementById ('project-modal-three');
-  var btnThree = document.getElementById ('project-button-three');
-  var closeThree = document.getElementsByClassName ('close-three')[0];
-
-  btnThree.onclick = function() {
-  	modalThree.style.display = "block";
-  }
-
-  closeThree.onclick = function() {
-  	modalThree.style.display = "none";
-  }
 
 
 
