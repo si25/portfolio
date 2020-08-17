@@ -269,7 +269,7 @@ div {
   border-radius: 50%;
   margin: 3rem auto ;
   display:block;
-  background-image: url("../img/background_opacity.png");
+  /*background-image: url("../img/background_opacity.png");*/
 }
 
 .about-body-text {
@@ -555,6 +555,10 @@ div {
 
 .project-five {
   background-image: url("../img/react.png");
+}
+
+.project-six {
+  background-image: url("../img/dice.jpg");
 }
 
 .dummy-card {
